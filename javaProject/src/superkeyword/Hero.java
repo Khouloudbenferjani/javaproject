@@ -10,6 +10,7 @@ public class Hero extends Person{
 		this.power = power;
 	}
 	
+	@Override
    public String toString() { // to string lié à return 
    return super.toString()+this.power; // si on met les 2 derniers lignes en comment l'affichage sera liée du return class person
 	}
