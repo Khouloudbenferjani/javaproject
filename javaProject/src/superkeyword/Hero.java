@@ -5,7 +5,7 @@ public class Hero extends Person{
 
 	String power;
 	
-	Hero(String name,int age,String power){	
+	Hero(String name,int age,String power){	//THE TITLE
 		super(name,age); // rappeler des parametres pris 
 		this.power = power;
 	}

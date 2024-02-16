@@ -11,6 +11,6 @@ public class Main {
 		Friend friend2 = new Friend("Patrick");
 		Friend friend3 = new Friend("Patrick");
 		
-		System.out.println(Friend.numberOfFriends);
+		System.out.println(Friend.numberOfFriends);//write the result of method used 
 	}
 }

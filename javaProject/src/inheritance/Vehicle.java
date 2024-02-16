@@ -5,12 +5,12 @@ public class Vehicle{
 
    
    
-   //-------GO METHOD-------
-   void go(){
+   //-------GO METHOD REFERS TO MOVES-------
+   void go(){ 
    System.out.println("This vehicle is moving");
    }
    
-   //-------STOP METHOD-------
+   //-------STOP METHOD REFERS TO STOP-------
    void stop(){
    System.out.println("This vehicle is stopped");
    }

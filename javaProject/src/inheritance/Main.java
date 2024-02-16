@@ -16,8 +16,12 @@ public class Main {
 		//car.go();
 		bike.stop();
 		
+		
+		// IN ORDER TO CALLS THE FUNCTIONS USED FOR EACH CLASS
+		System.out.println(car.wheels);
 		System.out.println(car.doors);
 		System.out.println(bike.pedals);
-				
+		System.out.println(bike.wheels);
+		
 	}
 }

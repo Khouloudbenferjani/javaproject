@@ -10,6 +10,6 @@ public class Main {
 		//Vehicle vehicle = new Vehicle();
 		Car car = new Car();
 		
-		car.go();
+		car.go(); // remplace println declared in the method void go
 	}
 }
