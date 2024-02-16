@@ -8,6 +8,8 @@ public class Car {
 	private int year;
 	
 	Car(String make,String model,int year){
+		
+		//WE SATRT ALWAYS WITH SET
 		this.setMake(make);
 		this.setModel(model);
 		this.setYear(year);
